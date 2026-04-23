@@ -11,5 +11,8 @@ jobs:
     addTwoNumbers:
       runs-on: ubuntu-latest
       steps:
+            - name: Repo clone
+              run: git checkout@v4
+
             - name: Print Hello World
               run: ndoe random.js
