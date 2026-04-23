@@ -7,4 +7,9 @@ jobs:
         steps:
             - name: Print Hello World
               run: echo "Hello World"
-              
+  
+    addTwoNumbers:
+      runs-on: ubuntu-latest
+      steps:
+            - name: Print Hello World
+              run: ndoe random.js
