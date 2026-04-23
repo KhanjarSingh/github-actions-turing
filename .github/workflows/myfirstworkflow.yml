@@ -12,7 +12,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
             - name: Repo clone
-              uses: git checkout@v4
+              uses: actions/checkout@v4
 
             - name: Print Hello World
               run: ndoe random.js
