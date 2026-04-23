@@ -14,5 +14,9 @@ jobs:
             - name: Repo clone
               uses: actions/checkout@v4
 
+            - name: Setup Node Version
+              uses: actions/setup-node@v4
+              with: 
+                node-version: 18.x
             - name: Print Hello World
               run: node random.js
